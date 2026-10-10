@@ -33,7 +33,7 @@ use function str_repeat;
 final class VersionInfo{
 
 	public const NAME = "Redstone-PE";
-	public const BASE_VERSION = "1.0.0";
+	public const BASE_VERSION = "1.0.0-ALPHA1";
 	public const IS_DEVELOPMENT_BUILD = true;
 	public const BUILD_CHANNEL = "stable";
 	public const GITHUB_URL = "https://github.com/ByteForge88/Redstone-PE";
