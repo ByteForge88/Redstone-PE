@@ -26,6 +26,8 @@ namespace pocketmine\command\defaults;
 use pocketmine\command\CommandSender;
 use pocketmine\permission\DefaultPermissionNames;
 
+use pocketmine\lang\KnownTranslationFactory;
+
 use pocketmine\VersionInfo;
 
 class VersionCommand extends VanillaCommand{
