@@ -25,16 +25,18 @@ namespace pocketmine;
 
 use pocketmine\utils\Git;
 use pocketmine\utils\VersionString;
+
 use function is_array;
 use function is_int;
 use function str_repeat;
 
 final class VersionInfo{
-	public const NAME = "Axolotl-PM";
-	public const BASE_VERSION = "5.49.2";
+
+	public const NAME = "Redstone-PE";
+	public const BASE_VERSION = "1.0.0";
 	public const IS_DEVELOPMENT_BUILD = true;
 	public const BUILD_CHANNEL = "stable";
-	public const GITHUB_URL = "https://github.com/axolotl-pm/PocketMine-MP";
+	public const GITHUB_URL = "https://github.com/ByteForge88/Redstone-PE";
 
 	/**
 	 * PocketMine-MP-specific version ID for world data. Used to determine what fixes need to be applied to old world
